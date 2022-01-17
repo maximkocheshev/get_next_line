@@ -2,6 +2,10 @@
 ### ***The aim of the main part:*** 
 To code a function that returns a line, read from a file descriptor.
 
+You will compile your code as follows (a buffer size of 42 is used as an example):
+
+gcc -Wall -Wextra -Werror -D BUFFER_SIZE=42 <files>.c
+
 ### ***The aim of the bonus part:*** 
 To code a function get_next_line that be able to manage multiple file descriptors. For
 example, if the file descriptors 3, 4 and 5 are accessible for reading, then you can
