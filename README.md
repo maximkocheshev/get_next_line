@@ -3,7 +3,7 @@
 To code a function that returns a line, read from a file descriptor.
 ### Run:
 ```
-%>gcc -Wall -Wextra -Werror -D BUFFER_SIZE=42 <files>.c
+%> gcc -Wall -Wextra -Werror -D BUFFER_SIZE=42 <files>.c
 ```
 >A buffer size of 42 is used as an example.
 ### The aim of the bonus part:
