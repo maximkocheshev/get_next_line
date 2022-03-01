@@ -1,7 +1,7 @@
 # Get_next_line
 ### The aim of the mandatory part: 
 To code a function that returns a line, read from a file descriptor.
-### You will compile your code as follows:
+### Run:
 ```
 %>gcc -Wall -Wextra -Werror -D BUFFER_SIZE=42 <files>.c
 ```
