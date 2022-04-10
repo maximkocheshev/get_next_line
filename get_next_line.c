@@ -93,10 +93,7 @@ char	*get_next_line(int fd)
 		return (NULL);
 	buffer = malloc((BUFFER_SIZE + 1) * sizeof(char));
 	if (!buffer)
-	{
-		free(buffer);
 		return (NULL);
-	}
 	backup = make_backup(fd, backup, buffer);
 	if (!backup)
 		return (NULL);
